@@ -5,6 +5,6 @@ steps:
   args: ['-f','docker-compose.cloudbuild.yaml','up','-d']
 
 
-- id: "Rodando docker-compose"
+- id: "Rodando docker-compose ps"
   name: 'gcr.io/cloud-builders/docker'
   args: ['ps']
