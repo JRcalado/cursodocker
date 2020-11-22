@@ -1,5 +1,5 @@
 steps:
 
 - id: "Ridando docker-compose"
-  name: 'gcr.io/$PROJECT_ID/docker-compose'
+  name: 'gcr.io/codeeducation-test-272417/docker-compose'
   args: ['-f','docker-compose.cloudbuild.yaml','up','-d']
